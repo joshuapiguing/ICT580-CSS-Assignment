@@ -2,9 +2,10 @@
 
 
 /* you may add to or change the body rule */
+
 body {
     font-family: sans-serif;
-    color: #fff;
+    color: black;
     background: #000;
 }
 img {
@@ -34,9 +35,105 @@ img {
 /* --- you may ADD other link pseudo classes for
         specific articles or sections to improve CONTRAST --- */
 
+article {
+    display: flex;        
+    flex-direction: column;
+    align-items: center;    
+    width: 100%;
+    height: 100%;    
+}
+
+#stagbeetle {
+    background-color: #B26219;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+#ladybug {
+    background-color: #FFD5AE;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+#bluemintbeetle {
+    background-color: #FFBD82;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+section.text {
+    background-color: rgb(255, 250, 250);
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    max-width: 600px;
+}
+
+.text h2 { 
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+    background-color: #fff;
+}
+
+footer {
+    display: flex;
+    background-color: #333;
+    text-align: center;
+    justify-content: center;
+}
+
+footer p {
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+    padding: 5px;
+    margin: 3px;
+    color: #82E8FF;
+}
+
+header {
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header h1{
+    color: white;
+}
+
 a {
     color: #379CB2;
 }
 a:hover {
     color: #82E8FF;
+}
+
+section {
+    max-width: 80%;   
+}
+
+.photo {
+    padding-top: 0px;
+    margin: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    padding: 5px;
+    margin: 10px;
+    list-style: none;
+    font-size: 1.7rem;
 }
